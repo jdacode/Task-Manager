@@ -2,6 +2,7 @@
 
 <p align="center">
   <img src="/img/octocat.jpeg" alt="octocat" width="200" height="200"/>
+  <img src="/img/js.png" alt="js" width="200" height="200"/>
 </p>
 
 *`[3]`*
