@@ -1,6 +1,6 @@
 # Task Manager - JavaScript
 
-![oc](/img/octocat.jpeg = 200x200)
+![oc](./img/octocat.jpeg = 200x200)
 *`[3]`* 
 <br><br>
 ## Demo 
@@ -35,7 +35,7 @@ The Web Storage API provides mechanisms by which browsers can securely store key
 |--------------------------------------------|--------------------------|--------------------------|
 | **Window.sessionStorage**                         | - Shared between all tabs and windows with the same origin. <br>- Survives browser restart. | **4KB** |
 | **Window.localStorage**                 | - Visible within a browser tab, including iframes from the same origin. <br>- Survives page refresh (but not tab close).            | **5MB** |
-| 
+
 
 
 > **Note**: In private browsing mode, most data storage is not supported. Local storage data and cookies are still stored, but they are ephemeral — the data is deleted when you close the last private browsing window.
