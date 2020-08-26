@@ -1,6 +1,6 @@
 # Task Manager - JavaScript
 
-![oc](/img/octocat.jpeg)
+![oc](/img/octocat.jpeg =200x200)
 *`[3]`* 
 <br><br>
 ## Demo
@@ -23,7 +23,7 @@ Task manager web app was specifically designed to test web broser' Local Storage
 
 The Web Storage API provides mechanisms by which browsers can securely store key/value pairs. Storage objects are simple key-value stores, similar to objects, but they stay intact through page loads. The keys and the values are always strings (note that, as with objects, integer keys will be automatically converted to strings). 
 
-> **Note**: It's recommended to use the Web Storage API ([setItem](setItem), [getItem](getItem), [removeItem](removeItem), key, length) to prevent the **pitfalls** associated with using plain objects as key-value stores.
+> **Note**: It's recommended to use the Web Storage API (**setItem**, **getItem**, **removeItem**, key, length) to prevent the **pitfalls** associated with using plain objects as key-value stores.
 
 - **sessionStorage**: The read-only sessionStorage property accesses a session Storage object for the current origin. sessionStorage is similar to localStorage; the difference is that while data in localStorage doesn't expire, data in sessionStorage is cleared when the page session ends.
 
@@ -33,8 +33,8 @@ The Web Storage API provides mechanisms by which browsers can securely store key
 
 | Web Storage API                                   | Summary       | Limit       |
 |--------------------------------------------|--------------------------|--------------------------|
-| [Window.sessionStorage](Window.sessionStorage)                           | - Shared between all tabs and windows with the same origin. <br>- Survives browser restart. | **4KB** |
-| [Window.localStorage](Window.localStorage)                 | - Visible within a browser tab, including iframes from the same origin. <br>- Survives page refresh (but not tab close).            | **5MB** |
+| **Window.sessionStorage**                         | - Shared between all tabs and windows with the same origin. <br>- Survives browser restart. | **4KB** |
+| **Window.localStorage**                 | - Visible within a browser tab, including iframes from the same origin. <br>- Survives page refresh (but not tab close).            | **5MB** |
 | 
 
 
