@@ -1,11 +1,11 @@
 # Task Manager - JavaScript
 
-<p align="center">
+<p align="center">*`[3]`* 
   <img src="/img/octocat.jpeg" alt="octocat" width="200" height="200"/>
 </p>
 
 <!-- ![oc](/img/octocat.jpeg) -->
-*`[3]`* 
+
 <br><br>
 ## Demo 
 
