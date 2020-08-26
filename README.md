@@ -1,6 +1,10 @@
 # Task Manager - JavaScript
 
-![oc](./img/octocat.jpeg = 200x200)
+<p align="center">
+  <img src="/img/octocat.jpeg" alt="octocat" width="200" height="200"/>
+</p>
+
+<!-- ![oc](/img/octocat.jpeg) -->
 *`[3]`* 
 <br><br>
 ## Demo 
