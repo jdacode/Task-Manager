@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Task List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <div id="main" class="card lime z-depth-3">
+                    <div class="card-content">
+                        <span class="card-title center-align"><h5><b>Task Manager</b></h5></span>
+                        <div class="row">
+                            <form id="task-form">
+                                <!-- form#task-form -->
+                                <div class="input-field co1 s12">
+                                    <input type="text" name="task" id="task">
+                                    <!-- taskInput#task -->
+                                    <label for="task" class="pink-text text-darken-3">New Task</label>
+                                </div>
+                                <div class="input-field co1 s12">
+                                    <input type="date" name="start" id="start">
+                                    <label for="start" class="pink-text text-darken-3"> Expected date to complete the task</label>
+                                </div>
+                                <input type="submit" value="Add Task" class="btn black-text amber accent-4">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card-action lime darken-1">
+                        <a class="reload secondary-content" style="color: green;">
+                            <i class="small fa fa-retweet"></i>
+                        </a>
+                        <h5 id="task-title" class="center-align"><b>Tasks</b></h5>
+                        
+                        <div class="input-field co1 s12">
+                            <input type="text" name="filter" id="filter">
+                            <!-- filter#filter -->
+                            <label for="filter" class="pink-text text-darken-3">Filter Task</label>
+                        </div>
+                        <ul class="collection z-depth-3"></ul>
+                            <!-- taskList.collection -->
+                        <a href="#" class="clear-tasks btn blue-grey darken-4">Clear Tasks</a>
+                        <!-- clearBtn.clear-tasks -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
