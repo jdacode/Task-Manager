@@ -1,6 +1,6 @@
 # Task Manager - JavaScript
 
-![oc](/img/octocat.jpeg =200x200)
+![oc](/img/octocat.jpeg = 200x200)
 *`[3]`* 
 <br><br>
 ## Demo
