@@ -3,7 +3,8 @@
 <p align="center">
   <img src="/img/octocat.jpeg" alt="octocat" width="200" height="200"/>
 </p>
-*`[3]`* 
+
+*`[3]`*
 <!-- ![oc](/img/octocat.jpeg) -->
 
 <br><br>
